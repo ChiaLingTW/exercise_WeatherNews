@@ -1,1 +1,1 @@
-# exercise_WeatherNewsApp
+# exercise_WeatherNews
