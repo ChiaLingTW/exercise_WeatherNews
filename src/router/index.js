@@ -10,17 +10,17 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: WeatherMap
-    },
-    {
-      path: '/weather/map',
-      name: 'WeatherMap',
-      component: WeatherMap
+      component: WeatherNews
     },
     {
       path: '/weather/news',
       name: 'WeatherNews',
       component: WeatherNews
+    },
+    {
+      path: '/weather/map',
+      name: 'WeatherMap',
+      component: WeatherMap
     },
     {
       path: '/weather/news/article',

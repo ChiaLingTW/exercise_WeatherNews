@@ -7,7 +7,7 @@ export default {
 <template>
     <a href="/weather/news/article" title="點擊進入">
         <div class="LatestNews">
-            <h1>{{ latestTitle }}</h1>
+            <h1>🔊 {{ latestTitle }}</h1>
             <span>{{ latestDate }}｜記者：{{ reporter }}</span><br>
             <img v-bind:src="latestCover" alt="cover"><br>
             <div class="readmore">
@@ -39,7 +39,9 @@ h1 {
 }
 
 .readmore>span {
+    color: white;
     background-color: rgba(200, 200, 245, 0.7);
+    background-image: linear-gradient(to right, rgb(0, 172, 237), rgb(82, 82, 185));
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.5s;
@@ -48,9 +50,7 @@ h1 {
 .readmore>span:hover {
     color: white;
     background-color: rgba(82, 82, 185, 0.7);
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: 0.5s;
+    background-image: linear-gradient(to right, rgba(82, 82, 185, 0.7), rgba(122, 122, 222, 0.7));
 }
 
 @media (max-width: 768px) {

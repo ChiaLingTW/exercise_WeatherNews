@@ -6,9 +6,9 @@ import Footer from './components/NewsArticle.vue';
 <template>
   <header>
     <nav>
-      <RouterLink to="/weather/map">即時天氣地圖</RouterLink>
       <RouterLink to="/weather/news">天氣新聞</RouterLink>
-      <RouterLink to="/weather/astronomical">天文知識</RouterLink>
+      <RouterLink to="/weather/map">即時天氣地圖</RouterLink>
+      <RouterLink to="/weather/astronomical">氣象常識</RouterLink>
     </nav>
   </header>
 
@@ -30,7 +30,7 @@ import Footer from './components/NewsArticle.vue';
 
 <style scoped>
 header {
-  height: 65px;
+  height: 70px;
   background-color: rgb(200, 200, 245);
   display: flex;
   text-align: center;
